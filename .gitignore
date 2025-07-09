@@ -1,0 +1,63 @@
+# === Visual Studio ===
+.vs/
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+*.cache
+*.log
+
+# Build & Intermediate
+x64/
+x86/
+Debug/
+Release/
+[Bb]uild*/
+[Cc]MakeCache.txt
+CMakeFiles/
+*.obj
+*.pch
+*.idb
+*.pdb
+*.ilk
+*.tlog/
+*.ipch/
+*.aps
+*.ncb
+*.sdf
+*.opendb
+*.exe
+*.dll
+*.lib
+*.exp
+
+# Qt Generated Files
+moc_*.cpp
+moc_*.h
+ui_*.h
+qrc_*.cpp
+
+# Qt Creator (if ever used)
+*.pro.user*
+*.qmake.stash
+*.autosave
+
+# Premake / CMake (optional)
+Makefile
+*.make
+*.ninja
+*.opensdf
+
+# Custom Generated Folders
+Generated/
+bin/
+obj/
+
+# OS Specific
+.DS_Store
+Thumbs.db
+
+# Backup or temp files
+*.bak
+*.tmp
+*~
