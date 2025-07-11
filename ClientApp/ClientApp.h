@@ -15,6 +15,9 @@ public:
     ClientApp(QWidget *parent = nullptr);
     ~ClientApp();
 
+private slots:
+    void on_ledIPAddress_textChanged(const QString &arg1);
+
 private:
     Ui::ClientAppClass *ui;
 };

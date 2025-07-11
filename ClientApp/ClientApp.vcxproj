@@ -96,6 +96,7 @@
     <QtUic Include="ClientApp.ui" />
     <QtMoc Include="ClientApp.h" />
     <ClCompile Include="ClientApp.cpp" />
+    <ClCompile Include="DeviceController.cpp" />
     <ClCompile Include="main.cpp" />
     <None Include="ClientApp.ico" />
     <ResourceCompile Include="ClientApp.rc" />
@@ -104,6 +105,9 @@
     <ProjectReference Include="..\Shared\Shared.vcxproj">
       <Project>{706424c5-8cd9-4d31-b9d7-da45b8770473}</Project>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="DeviceController.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">

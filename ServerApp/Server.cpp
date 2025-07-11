@@ -7,7 +7,6 @@ Server::Server(QObject* parent)
 
 void Server::incomingConnection(qintptr socketDescriptor)
 {
-	QTcpServer::incomingConnection(socketDescriptor);
-
-	std::cout << "New connection !\n";
+	// Connection *connection = new Connection(socketDescriptor, this);
+	emit newConnection();
 }

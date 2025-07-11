@@ -2,6 +2,7 @@
 
 // Qt
 #include <QTcpServer>
+#include <QtNetwork>
 
 // std
 #include <iostream>
@@ -17,7 +18,8 @@ signals:
 	void newConnection();
 
 protected:
-	void incomingConnection(qintptr socketDescriptor);
+	void incomingConnection(qintptr socketDescriptor) override;
+
 		
 };
 
